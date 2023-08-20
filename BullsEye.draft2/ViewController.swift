@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  BullsEye.draft2
 //
-//  Created by macOSGrey on 8/14/23.
+//  Created by Grey on 8/14/23.
 //
 
 import UIKit
@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     //Setting variable to 50, default in app will now be 50.
     var currentValue: Int = 50
     */
-    
     
     //NOTE: the swift can infer the type by the value (a number).
     var currentValue = 0
