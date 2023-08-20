@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		38194A872A9277FD00EFCC77 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38194A862A9277FD00EFCC77 /* AboutViewController.swift */; };
-		38194A892A92AB3000EFCC77 /* 01-getting-started in Resources */ = {isa = PBXBuildFile; fileRef = 38194A882A92AB3000EFCC77 /* 01-getting-started */; };
 		38194A8B2A92AB7A00EFCC77 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 38194A8A2A92AB7A00EFCC77 /* BullsEye.html */; };
 		38194A8D2A92ABF400EFCC77 /* UIKit_Apprentic-code_materials-ed9 in Resources */ = {isa = PBXBuildFile; fileRef = 38194A8C2A92ABF400EFCC77 /* UIKit_Apprentic-code_materials-ed9 */; };
 		5287B29F2A8ACEBF003AD3F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287B29E2A8ACEBF003AD3F2 /* AppDelegate.swift */; };
@@ -21,7 +20,6 @@
 
 /* Begin PBXFileReference section */
 		38194A862A9277FD00EFCC77 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
-		38194A882A92AB3000EFCC77 /* 01-getting-started */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "01-getting-started"; path = "../../../../../Volumes/FF_SHARE/EF_Stuff/PC Study/iOS mobile Dev/COP 2654 iOS App Development/UIKit_Apprentic-code_materials-ed9/01-getting-started"; sourceTree = "<group>"; };
 		38194A8A2A92AB7A00EFCC77 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = BullsEye.html; path = "../../../../../Volumes/FF_SHARE/EF_Stuff/PC Study/iOS mobile Dev/COP 2654 iOS App Development/UIKit_Apprentic-code_materials-ed9/01-getting-started/Resources/BullsEye.html"; sourceTree = "<group>"; };
 		38194A8C2A92ABF400EFCC77 /* UIKit_Apprentic-code_materials-ed9 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "UIKit_Apprentic-code_materials-ed9"; sourceTree = "<group>"; };
 		5287B29B2A8ACEBF003AD3F2 /* BullsEye.draft3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.draft3.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,7 +65,6 @@
 			children = (
 				38194A8C2A92ABF400EFCC77 /* UIKit_Apprentic-code_materials-ed9 */,
 				38194A8A2A92AB7A00EFCC77 /* BullsEye.html */,
-				38194A882A92AB3000EFCC77 /* 01-getting-started */,
 				5287B29E2A8ACEBF003AD3F2 /* AppDelegate.swift */,
 				5287B2A02A8ACEBF003AD3F2 /* SceneDelegate.swift */,
 				5287B2A22A8ACEBF003AD3F2 /* ViewController.swift */,
@@ -139,7 +136,6 @@
 			files = (
 				5287B2AB2A8ACEC0003AD3F2 /* LaunchScreen.storyboard in Resources */,
 				5287B2A82A8ACEC0003AD3F2 /* Assets.xcassets in Resources */,
-				38194A892A92AB3000EFCC77 /* 01-getting-started in Resources */,
 				38194A8D2A92ABF400EFCC77 /* UIKit_Apprentic-code_materials-ed9 in Resources */,
 				5287B2A62A8ACEBF003AD3F2 /* Main.storyboard in Resources */,
 				38194A8B2A92AB7A00EFCC77 /* BullsEye.html in Resources */,
@@ -317,7 +313,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.FrankiesPizza.BullsEye-draft2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FrankiesPizza.BullsEye-draft3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -346,7 +342,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.FrankiesPizza.BullsEye-draft2";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.FrankiesPizza.BullsEye-draft3";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
