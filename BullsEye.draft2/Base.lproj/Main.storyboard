@@ -31,7 +31,7 @@
                                 <rect key="frame" x="281" y="166" width="267" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="showAlert" destination="BYZ-38-t0r" eventType="valueChanged" id="xgQ-YY-twq"/>
+                                    <action selector="sliderMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="nUf-y4-37d"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Put the Bull's Eye as close as you can to: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" id="XEm-Yf-KmD">
@@ -118,7 +118,7 @@
                     <connections>
                         <outlet property="roundLabel" destination="mPi-Jh-3qm" id="1b8-B5-0d6"/>
                         <outlet property="scoreLabel" destination="0wP-6t-0aR" id="ROb-lK-rtP"/>
-                        <outlet property="slider" destination="I0j-R1-iqt" id="kZ5-ba-bUw"/>
+                        <outlet property="slider" destination="I0j-R1-iqt" id="l5S-cV-a26"/>
                         <outlet property="targetLabel" destination="45f-4m-HKY" id="Hm0-YO-lSd"/>
                     </connections>
                 </viewController>
