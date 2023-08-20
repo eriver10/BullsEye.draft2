@@ -50,7 +50,7 @@
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <size key="titleShadowOffset" width="0.0" height="1"/>
-                                <state key="normal" title="Hit me!  " backgroundImage="Button-Normal">
+                                <state key="normal" title="Hit me!" backgroundImage="Button-Normal">
                                     <color key="titleColor" red="0.37647058823529411" green="0.11897042410714288" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <state key="highlighted" backgroundImage="Button-Highlighted">
@@ -144,7 +144,7 @@
                                 <size key="shadowOffset" width="0.0" height="1"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45f-4m-HKY">
-                                <rect key="frame" x="507" y="80" width="36" height="25"/>
+                                <rect key="frame" x="507" y="91" width="36" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -163,6 +163,9 @@
                                 <rect key="frame" x="548" y="292" width="50" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <buttonConfiguration key="configuration" style="plain"/>
+                                <connections>
+                                    <segue destination="HAo-SW-3wL" kind="presentation" modalTransitionStyle="flipHorizontal" id="QkX-YB-fGg"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -179,6 +182,74 @@
             </objects>
             <point key="canvasLocation" x="60.563380281690144" y="58.778625954198468"/>
         </scene>
+        <!--About View Controller-->
+        <scene sceneID="E8G-LD-IRg">
+            <objects>
+                <viewController id="HAo-SW-3wL" customClass="AboutViewController" customModule="BullsEye_draft2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="center" id="26z-bb-CIS">
+                        <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="TopLeft" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4ZS-4q-QKc">
+                                <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
+                                <subviews>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="bottom" misplaced="YES" editable="NO" adjustsFontForContentSizeCategory="YES" layoutManager="textKit2" translatesAutoresizingMaskIntoConstraints="NO" id="TVK-Tw-VcP">
+                                        <rect key="frame" x="123" y="137" width="457" height="113"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="428" id="qwh-WT-qH9"/>
+                                        </constraints>
+                                        <string key="text">*** Bull’s Eye ***
+Welcome to the awesome game of Bull’s Eye where you can win
+points and fame by dragging a slider.                   
+Your goal is to place the slider as close as possible to the
+target value. The closer you are, the more points you score.
+                         Enjoy!</string>
+                                        <color key="textColor" systemColor="labelColor"/>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" reversesTitleShadowWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLj-17-fuW">
+                                        <rect key="frame" x="277" y="234" width="100" height="37"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="Y20-bV-tsX"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="16"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Close" backgroundImage="Button-Normal">
+                                            <color key="titleColor" red="0.37647058820000001" green="0.1166203395" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <state key="highlighted" backgroundImage="Button-Highlighted"/>
+                                        <connections>
+                                            <action selector="close" destination="HAo-SW-3wL" eventType="touchUpInside" id="dfj-A3-4IM"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="fLj-17-fuW" secondAttribute="bottom" constant="21" id="H69-Wa-sWA"/>
+                                    <constraint firstItem="TVK-Tw-VcP" firstAttribute="centerX" secondItem="fLj-17-fuW" secondAttribute="centerX" id="NXY-Bj-xJk"/>
+                                    <constraint firstItem="fLj-17-fuW" firstAttribute="top" secondItem="TVK-Tw-VcP" secondAttribute="bottom" constant="16" id="R8Q-Mw-ck2"/>
+                                    <constraint firstItem="TVK-Tw-VcP" firstAttribute="top" secondItem="4ZS-4q-QKc" secondAttribute="top" constant="59" id="VKB-Vq-zC8"/>
+                                    <constraint firstItem="TVK-Tw-VcP" firstAttribute="leading" secondItem="4ZS-4q-QKc" secondAttribute="leading" constant="16" id="kbX-dp-vp4"/>
+                                    <constraint firstItem="TVK-Tw-VcP" firstAttribute="centerY" secondItem="4ZS-4q-QKc" secondAttribute="centerY" id="vKz-ji-oLo"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Q2U-0e-dqt"/>
+                        <constraints>
+                            <constraint firstItem="4ZS-4q-QKc" firstAttribute="leading" secondItem="Q2U-0e-dqt" secondAttribute="leading" constant="191" id="PWD-G1-4XH"/>
+                            <constraint firstItem="4ZS-4q-QKc" firstAttribute="top" secondItem="Q2U-0e-dqt" secondAttribute="top" constant="70" id="V4o-vd-jo1"/>
+                            <constraint firstItem="4ZS-4q-QKc" firstAttribute="centerX" secondItem="26z-bb-CIS" secondAttribute="centerX" id="aGn-Cp-hfF"/>
+                            <constraint firstItem="4ZS-4q-QKc" firstAttribute="centerY" secondItem="26z-bb-CIS" secondAttribute="centerY" id="iek-rr-hrW"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4RQ-A1-RVS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="85.91549295774648" y="1052.6717557251909"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Background" width="568" height="320"/>
@@ -186,6 +257,9 @@
         <image name="Button-Normal" width="100" height="37"/>
         <image name="SmallButton" width="32" height="32"/>
         <image name="StartOverIcon" width="20" height="20"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

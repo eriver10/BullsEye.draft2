@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38194A872A9277FD00EFCC77 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38194A862A9277FD00EFCC77 /* AboutViewController.swift */; };
 		5287B29F2A8ACEBF003AD3F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287B29E2A8ACEBF003AD3F2 /* AppDelegate.swift */; };
 		5287B2A12A8ACEBF003AD3F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287B2A02A8ACEBF003AD3F2 /* SceneDelegate.swift */; };
 		5287B2A32A8ACEBF003AD3F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5287B2A22A8ACEBF003AD3F2 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		38194A862A9277FD00EFCC77 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 		5287B29B2A8ACEBF003AD3F2 /* BullsEye.draft2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BullsEye.draft2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5287B29E2A8ACEBF003AD3F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5287B2A02A8ACEBF003AD3F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		5287B2922A8ACEBF003AD3F2 = {
 			isa = PBXGroup;
 			children = (
+				38194A862A9277FD00EFCC77 /* AboutViewController.swift */,
 				5287B29D2A8ACEBF003AD3F2 /* BullsEye.draft2 */,
 				5287B29C2A8ACEBF003AD3F2 /* Products */,
 			);
@@ -140,6 +143,7 @@
 			files = (
 				5287B2A32A8ACEBF003AD3F2 /* ViewController.swift in Sources */,
 				5287B29F2A8ACEBF003AD3F2 /* AppDelegate.swift in Sources */,
+				38194A872A9277FD00EFCC77 /* AboutViewController.swift in Sources */,
 				5287B2A12A8ACEBF003AD3F2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
